@@ -1,7 +1,7 @@
 # Malam-Jumat-Ngoding
 Repository Malam-Jumat-Ngoding
 
-## Tutorial ngepush project Malam-Jumat-Ngoding
+## Tutorial ngepush dan deploy project Malam-Jumat-Ngoding
 
 * 1 Fork Repository Malam-Jumat-Ngoding
 
