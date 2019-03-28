@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Roboto:200,300,400|Staatliches');
+
+
+// Set your brand colors
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+$white-cocho: #fdfbd4;
+$dark-cocho: #765D69;
+$green-pastel: #8fb9a8;
+$red-pastel: #fcd0ba;
+$purple: #8A4D76;
+$pink: #FA7C91;
+$dark-anas: #434343;
+
+// Update Bulma's global variables
+$family-sans-serif: "Roboto", sans-serif;
+$family-secondary: Staatliches;
+$grey-light: $beige-light;
+
+// Update bulma global var
+$primary: $dark-cocho;
+$primary-invert: $white-cocho;
+$link: $white-cocho;
+$link-invert: $dark-cocho;
+$danger: $pink;
+$success: $green-pastel;
+$warning: $red-pastel;
+$dark: $dark-anas;
+
+// for footer color
+$footer-background-color: $dark-anas;
+// Hero background transparent
+.hero.has-background {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(120deg, #765d69, #8fb9a8);
+}
+.hero-background {
+  position: absolute;
+  object-fit: cover;
+  object-position: center center;
+  width: 100%;
+  height: 100%;
+
+}
+.hero-background.is-transparent {
+  opacity: 0.1;
+}
+.hero-background.is-transparent-2 {
+  opacity: 0.3;
+}
+
+// Update some of Bulma's component variables
+$body-background-color: $beige-lighter;
+$input-border-color: transparent;
+.footer {
+  padding: 2em 1.5em 2em;
+}
+.is-vcentered {
+  align-items: center;
+}
+.title.is-display-1 {
+  font-size: 4.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.title.is-display-2 {
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.title.is-display-3 {
+  font-size: 1.75rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.title.is-display-4 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.title.is-title-1 {
+  font-size: 6rem;
+  font-weight: 200;
+  line-height: 1.2;
+}
+.title.is-title-2 {
+  font-size: 4.5rem;
+  font-weight: 200;
+  line-height: 1.2;
+}
+.title.is-title-3 {
+  font-size: 1.75rem;
+  font-weight: 200;
+  line-height: 1.2;
+}
+.title.is-title-4 {
+  font-size: 1.5rem;
+  font-weight: 200;
+  line-height: 1.2;
+}
+.title.is-title-5 {
+  font-size: 2.5rem;
+  font-weight: 200;
+  line-height: 1.2;
+}
+.events-card .card-table {
+  max-height: 250px;
+  overflow-y: scroll;
+}
+
+
+
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/bulma.sass";
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/elements/form.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";
+@import "../node_modules/bulma/sass/layout/hero.sass";
+@import "../node_modules/bulma/sass/layout/section.sass";
+@import "../node_modules/bulma/sass/layout/footer.sass";
